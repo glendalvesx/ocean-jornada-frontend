@@ -18,3 +18,12 @@
 .card > img{
   border-radius: 10px;
 }
+
+.card > p{
+    background-color: #fff; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 5px;
+    margin: 15px;
+
+  }
