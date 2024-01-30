@@ -3,9 +3,12 @@ function Card() {
         <>
           <div className="card">
             <h2>Rick Sanchez</h2>
-            <p>Status: Vivo</p>
-            <p>Espécie: Humana</p>
-            <p>Origem: Terra C-137</p>
+
+            <div className="tags">
+            <p className="tag">Status: Vivo</p>
+            <p className="tag">Espécie: Humana</p>
+            <p className="tag">Origem: Terra C-137</p>
+            </div>
             <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"/>
          </div>
         </>

@@ -4,26 +4,34 @@
   padding: 16px;
   box-shadow: 4px 4px white;
   text-align: center;
+  cursor: pointer;
 }
 
 .card > h2{
   font-size: 32px;
   margin-bottom: 10px;
   padding-left: 8px;
-  border-left: 4px solid transparent;
-  cursor: pointer;
-  border-left: 4px solid #3498db;
+  border-left: 6px solid #3498db;
 }
 
 .card > img{
   border-radius: 10px;
 }
 
-.card > p{
+.tags {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 8px;
+ margin-bottom: 24px;
+ max-width: 300px;
+ justify-content: center;
+}
+
+.tag {
     background-color: #fff; /* Cor de fundo */
     color: #000000; /* Cor do texto */
-    border-radius: 10px; /* Borda arredondada */
-    padding: 5px;
-    margin: 15px;
-
+    border-radius: 8px; /* Borda arredondada */
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 12px;
   }
