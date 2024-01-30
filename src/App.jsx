@@ -4,22 +4,35 @@ import Card from './components/Card/Card'
 function App() {
   const item1 = {
     name: 'Rick Sanchez',
-    image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg'
+    image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg',
+    tag1: 'Status: Vivo',
+    tag2: 'Espécie: Humana',
+    tag3: 'Origem: Terra C-137'
+
   }
 
   const item2 = {
     name: 'Morty Smith',
-    image: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg'
+    image: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg',
+    tag1: 'Status: Vivo',
+    tag2: 'Espécie: Humana',
+    tag3: 'Origem: Terra C-137'
   }
 
   const item3 = {
     name: 'Summer Smith',
-    image: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg'
+    image: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg',
+    tag1: 'Status: Vivo',
+    tag2: 'Espécie: Humana',
+    tag3: 'Origem: Terra C-137'
   }
 
   const item4 = {
     name: 'Beth Smith',
-    image: 'https://rickandmortyapi.com/api/character/avatar/4.jpeg'
+    image: 'https://rickandmortyapi.com/api/character/avatar/4.jpeg',
+    tag1: 'Status: Vivo',
+    tag2: 'Espécie: Humana',
+    tag3: 'Origem: Terra C-137'
   }
 
   return (
