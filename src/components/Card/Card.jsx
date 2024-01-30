@@ -11,9 +11,9 @@ function Card(props) {
             <h2>{item.name}</h2>
 
             <div className="tags">
-               <p className="tag">Status: Vivo</p>
-               <p className="tag">Espécie: Humana</p>
-               <p className="tag">Origem: Terra C-137</p>
+               <div className="tag">Status: Vivo</div>
+               <div className="tag">Espécie: Humana</div>
+               <div className="tag">Origem: Terra C-137</div>
             </div>
 
             <img src={item.image}/>
